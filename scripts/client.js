@@ -2,7 +2,7 @@
 class Client {
     async getDataCatalog(catalog) {
         if(catalog !== undefined && catalog.length !== 0 && catalog !== "status") {
-            return fetch(`https://my-json-server.typicode.com/nekt2111/labsJS/${catalog}`).then((response) => {
+            return fetch(`https://my-json-server.typicode.com/NiktaYevdokymov21/Project-pizza/${catalog}`).then((response) => {
                 return response.json();
             });
         }

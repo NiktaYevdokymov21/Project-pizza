@@ -303,6 +303,16 @@
         1
       ],
       "description": "Лава кейк 50г"
+    },{
+      "id": 3,
+      "name": "Терамису",
+      "imgLogo": "img/deserts/Tiramisu.jpg",
+      "recommended": false,
+      "price": 70,
+      "relatedProductsIds": [
+        1
+      ],
+      "description": "Терамиса 100г"
     }
   ],
   "sales": [

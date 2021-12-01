@@ -1,0 +1,4 @@
+
+.element__side-size{
+    grid-template: 1fr/1fr;
+}

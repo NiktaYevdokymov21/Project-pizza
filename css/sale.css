@@ -1,49 +1,62 @@
 
 
-.sales-main__element{
-    border-top: 2px solid #e5e5e5;
-    padding: 50px 300px 60px 300px;
+.sale-main-wrapper{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template: 0.1fr 1fr 0.1fr/ 1fr;
+    background-color: ghostwhite;
+}
+
+
+.sale-mains__element{
+    padding: 70px 150px 70px 150px;
     box-sizing: border-box;
     display: grid;
     grid-template: 1fr/1fr 1fr;
-    grid-gap: 50px;
+    grid-gap: 100px;
     font-family: Roboto;
     margin-bottom: 40px;
 }
 
 @media (max-width: 1600px) {
-    .sales-main__element{
+    .sale-mains__element{
         padding: 50px 100px 60px 100px;
     }
 }
 
 @media (max-width: 1300px) {
-    .sales-main__element{
+    .sale-mains__element{
         padding: 50px 50px 60px 50px;
     }
 }
 
 @media (max-width: 1200px) {
-    .sales-main__element{
+    .sale-mains__element{
         padding: 10px 50px 60px 10px;
     }
-
+    .sale-main-main{
+        padding: 0 50px;
+    }
 }
 
 @media (max-width: 1100px) {
-    .sales-main__element{
+    .sale-mains__element{
         grid-template: 0.5fr 0.6fr/1fr;
-        padding: 0px 20px 10px 20px;
+        padding: 0px 20px 0px 20px;
         background: white;
         box-shadow: 0 0 5px rgba(0,0,0,0.3);
         border-radius: 10px;
         margin-bottom: 100px;
     }
+    .sale-main-main{
+        padding: 0 20px;
+    }
 }
 
 
 
-.sales-main__logo{
+.sale-main__logo{
     width: 100%;
     padding: 0 0 60% 0;
     position: relative;
@@ -51,27 +64,27 @@
 
 
 
-.sales-main__date{
+.sale-main__date{
     font-weight: bold;
     padding:10px 0;
     font-size: 16px;
 }
 
-.sales-main__title{
+.sale-main__title{
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-.sales-main__information{
+.sale-main__information{
     line-height: 23px;
 }
 
-.sales-main__buttons{
+.sale-main__buttons{
     margin-top: 25px;
 }
 
-.sales-main__details{
+.sale-main__details{
     color: red;
     border: 2px solid red ;
     background-color: white;
@@ -82,12 +95,12 @@
     transition-duration: 0.5s;
 }
 
-.sales-main__details:hover{
+.sale-main__details:hover{
     color: white;
     background-color: red;
 }
 
-.sales-main__activate{
+.sale-main__activate{
     color: white;
     border: 2px solid white ;
     background-color: red;
@@ -96,42 +109,44 @@
     font-weight: bold;
     font-size:15px;
     transition-duration: 0.5s;
+
 }
 
-.sales-main__logo img{
+.sale-main__logo img{
     position: absolute;
     top: 0;
     left: 0;
     object-fit: cover;
     width: 100%;
     height: 100%;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
+
 @media (max-width: 1000px){
-    .sales-main__description{
+    .sale-main__description{
         padding: 0 10px;
     }
-    .sales-main__details{
+    .sale-main__details{
         margin-left: 5px;
         padding: 10px 30px;
     }
-    .sales-main__activate{
+    .sale-main__activate{
         padding: 10px 5px;
         margin-right: 5px;
     }
-    .sales-main__logo img{
+    .sale-main__logo img{
         border-radius: 0px 0px 10px 10px;
     }
 }
 
 @media (max-width: 349px) {
-    .sales-main__details{
+    .sale-main__details{
         margin: 0 0 10px 0;
     }
 }
 
-.sales-main__activate:hover{
+.sale-main__activate:hover{
     color: red;
     background-color: white;
     border: 2px solid red ;
@@ -141,32 +156,28 @@
 
 
 
-
 @media (max-width: 950px){
 
-    .header{
+    .sale-main-header{
         padding: 0px 30px;
     }
 }
 @media (max-width: 660px) {
-    .header{
+    .sale-main-header{
         font-size:15px;
         padding: 0px 20px;
 
     }
 }
 @media (max-width: 350px) {
-    .header{
+    .sale-main-header{
         font-size: 12px;
         padding: 0px 10px;
     }
 
 }
 
-@media (max-width: 389px) {
-    .sales-main__activate{
-        margin-top: 20px;
-    }
+
+.info__par{
+    padding-bottom: 10px;
 }
-
-

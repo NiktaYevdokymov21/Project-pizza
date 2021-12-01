@@ -1,0 +1,32 @@
+
+
+
+.element-drink{
+    display: grid;
+    grid-template: 1fr 0.15fr 0.3fr 0.3fr/1fr;
+}
+
+.element__drink-title{
+    font-size:18px;
+}
+
+.element__drink-logo{
+    margin-left: 16%;
+}
+
+
+
+.element__drink-logo img{
+    width: 80%;
+}
+
+.element__center-description{
+    display: grid;
+    grid-template: 1fr/1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.element__center-description h3{
+    font-size:22px;
+}

@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width">
     <title>Chepino`s Pizza</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../css/product.css">
+    <link rel="stylesheet" type="text/css" href="../css/drinks.css">
 </head>
-    <div class="product-wrapper">
+    <div class="wrapper">
         <header class="header">
             <div class="header__logo">
                 <div class="logo"> <img src="../img/Pngtreeend_pizza_chef_2640834.png" alt="" class=""></div>
@@ -25,63 +25,64 @@
             <div class="header__cart"><img src="../img/shopping-cart.png" alt="cart"></div>
             <div class="header__burger"></div>
         </header>
-
         <main>
-
-            <div class="product__wrapper">
-                <div class="product__column-1">
-                    <div class="product__logo-wrapper">
-                    <div class="product__main-logo">
-                        <img src="../img/pizza/Margarita.jpg" alt="">
-                    </div>
-                    </div>
-                </div>
-
-                <div class="product__column-2">
-                    <div class="product__main-description">
-                        <div class="product__main-title">Пицца Маргарита</div>
-                        <div class="product__ingridients">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cupiditate magnam officiis quia. Corporis dolore ex odit quo quos, ullam?</div>
-                        <div class="product__buy">
-                            <div class="product__main-price"><span class="product-price__number">100.99</span><span
+            <div class="main__wrapper">
+                <div class="water__title title"><h2>Вода</h2></div>
+                <div class="water__row elements__row">
+                    <div class="water__element element element-drink">
+                        <div class="element__logo element__drink-logo"><img src="../img/drinks/gaz-thumbnail-960x960.png" alt="water"></div>
+                        <div class="element__description element__center-description ">
+                            <div class="element__title element__drink-title"><h3>BonAqua газ.</h3></div>
+                        </div>
+                        <div class="element__size">
+                            <div class="size__small size picked-size" onclick="pickSize(`size__small`)">330мл</div>
+                            <div class="size__medium size" onclick="pickSize(`size__medium`)" >500мл</div>
+                            <div class="size__big size" onclick="pickSize(`size__big`)">1л</div>
+                        </div>
+                        <div class="element__buy">
+                            <div class="element__price"><span class="price__number">20.99</span><span
                                     class="price__currency">грн</span></div>
-                            <div class="product__add-cart_btn"><button class="element__cart">Добавить в корзину</button></div>
+                            <div class="element__cart">В корзину</div>
+                        </div>
+                    </div>
+                    <div class="water__element element element-drink">
+                        <div class="element__logo element__drink-logo"><img src="../img/drinks/gaz-thumbnail-960x960.png" alt="water"></div>
+                        <div class="element__description element__center-description">
+                            <div class="element__title element__drink-title"><h3>BonAqua газ.</h3></div>
+                        </div>
+                        <div class="element__size">
+                            <div class="size__small size picked-size" onclick="pickSize(`size__small`)">330мл</div>
+                            <div class="size__medium size" onclick="pickSize(`size__medium`)" >500мл</div>
+                            <div class="size__big size" onclick="pickSize(`size__big`)">1л</div>
+                        </div>
+                        <div class="element__buy">
+                            <div class="element__price"><span class="price__number">20.99</span><span
+                                    class="price__currency">грн</span></div>
+                            <div class="element__cart">В корзину</div>
                         </div>
                     </div>
                 </div>
-                <div class="product__others">
-                    <div class="others__title">Другие товары:</div>
-                    <div class="others__products-raw">
-                        <div class="other__product">
-                            <div class="other__logo"><img src="../img/pizza/Margarita.jpg" alt="">
+                    <div class="water__title title"><h2>Сок</h2></div>
+                    <div class="water__row elements__row">
+                        <div class="water__element element element-drink">
+                            <div class="element__logo element__drink-logo"><img src="../img/drinks/gaz-thumbnail-960x960.png" alt="water"></div>
+                            <div class="element__description element__center-description">
+                                <div class="element__title element__drink-title"><h3>BonAqua газ.</h3></div>
                             </div>
-                            <div class="other__name">Маргарита</div>
-                        </div>
-                        <div class="other__product">
-                            <div class="other__logo"><img src="../img/pizza/Margarita.jpg" alt="">
+                            <div class="element__size">
+                                <div class="size__small size picked-size" onclick="pickSize(`size__small`)">330мл</div>
+                                <div class="size__medium size" onclick="pickSize(`size__medium`)" >500мл</div>
+                                <div class="size__big size" onclick="pickSize(`size__big`)">1л</div>
                             </div>
-                            <div class="other__name">Маргарита</div>
-                        </div>
-                        <div class="other__product">
-                            <div class="other__logo"><img src="../img/pizza/Margarita.jpg" alt="">
+                            <div class="element__buy">
+                                <div class="element__price"><span class="price__number">20.99</span><span
+                                        class="price__currency">грн</span></div>
+                                <div class="element__cart">В корзину</div>
                             </div>
-                            <div class="other__name">Маргарита</div>
                         </div>
-                        <div class="other__product">
-                            <div class="other__logo"><img src="../img/pizza/Margarita.jpg" alt="">
-                            </div>
-                            <div class="other__name">Маргарита</div>
-                        </div>
-                        <div class="other__product">
-                            <div class="other__logo"><img src="../img/pizza/Margarita.jpg" alt="">
-                            </div>
-                            <div class="other__name">Маргарита</div>
-                        </div>
-
                     </div>
-                </div>
 
             </div>
-
         </main>
         <footer>
             <div class="footer__wrapper">
@@ -120,7 +121,6 @@
             </div>
         </footer>
     </div>
-<body>
 
 </body>
 </html>

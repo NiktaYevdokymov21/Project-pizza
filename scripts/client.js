@@ -29,7 +29,7 @@ class Client {
     }
     async setData(order){
 
-        return await fetch(`https://my-json-server.typicode.com/nekt2111/labsJS/pizzas`,{
+        return await fetch(`https://my-json-server.typicode.com/NiktaYevdokymov21/Project-pizza/`,{
             method: 'POST',
             body: JSON.stringify(order)
         }).then(response => {
